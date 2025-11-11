@@ -1,65 +1,67 @@
-body{
+body {
     background-color: black;
     background-image: url(https://media.istockphoto.com/id/513106144/photo/traffic-on-highway-with-cars.jpg?s=612x612&w=0&k=20&c=dXm6BH6TnIHFu202PlQJNdM12lZQBt11Tkbqx85rHdQ=);
     background-size: cover;
 }
-.trafficLightUpper{
+
+.trafficLightUpper {
     width: 105px;
     height: 220px;
     background-color: black;
     border-radius: 15px;
 }
 
-.trafficLightLower{
+.trafficLightLower {
     width: 1px;
     height: 190px;
     background-color: black;
 }
 
-.redLightContainer{
+.redLightContainer {
     width: 60px;
     height: 60px;
     border-radius: 50px;
     margin: auto;
-     
+
+
 }
 
-.yellowLightContainer{
+.yellowLightContainer {
     width: 60px;
     height: 60px;
     border-radius: 50px;
     margin: auto;
-    
+
 }
 
-.greenLightContainer{
+.greenLightContainer {
     width: 60px;
     height: 60px;
     border-radius: 50px;
     margin: auto;
-  
-        
+
+
 }
 
-.trafficLightContainer{
+.trafficLightContainer {
     margin-top: 80px;
 }
 
-.redLightContainerHook{
-box-shadow: -0.3px -0.8px 2px 8px rgb(255, 41, 41);
+.redLightContainerHook {
+    box-shadow: -0.3px -0.8px 2px 8px rgb(245, 34, 34);
     filter: brightness(1.35);
 }
 
-.yellowLightContainerHook{
-box-shadow: -0.3px -0.8px 2px 8px rgb(255, 245, 57);
+.yellowLightContainerHook {
+    box-shadow: -0.3px -0.8px 2px 8px rgb(255, 243, 9);
+    filter: brightness(1.15);
+}
+
+.greenLightContainerHook {
+    box-shadow: -0.3px -0.8px 2px 8px rgb(0, 151, 13);
     filter: brightness(1.85);
 }
 
-.greenLightContainerHook{
-box-shadow: -0.3px -0.8px 2px 8px rgb(0, 151, 13);
-    filter: brightness(1.85);
-}
-
-.withoutLightContainerHook{
+.withoutLightContainerHook {
     filter: brightness(1);
 }
