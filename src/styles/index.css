@@ -1,11 +1,65 @@
-/* 
+body{
+    background-color: black;
+    background-image: url(https://media.istockphoto.com/id/513106144/photo/traffic-on-highway-with-cars.jpg?s=612x612&w=0&k=20&c=dXm6BH6TnIHFu202PlQJNdM12lZQBt11Tkbqx85rHdQ=);
+    background-size: cover;
+}
+.trafficLightUpper{
+    width: 105px;
+    height: 220px;
+    background-color: black;
+    border-radius: 15px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.trafficLightLower{
+    width: 1px;
+    height: 190px;
+    background-color: black;
+}
 
-*/
+.redLightContainer{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+     
+}
+
+.yellowLightContainer{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+    
+}
+
+.greenLightContainer{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+  
+        
+}
+
+.trafficLightContainer{
+    margin-top: 80px;
+}
+
+.redLightContainerHook{
+box-shadow: -0.3px -0.8px 2px 8px rgb(255, 41, 41);
+    filter: brightness(1.35);
+}
+
+.yellowLightContainerHook{
+box-shadow: -0.3px -0.8px 2px 8px rgb(255, 245, 57);
+    filter: brightness(1.85);
+}
+
+.greenLightContainerHook{
+box-shadow: -0.3px -0.8px 2px 8px rgb(0, 151, 13);
+    filter: brightness(1.85);
+}
+
+.withoutLightContainerHook{
+    filter: brightness(1);
+}
